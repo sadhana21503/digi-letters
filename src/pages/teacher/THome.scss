@@ -1,0 +1,38 @@
+.thome-main{
+    padding: 40px;
+    height: 100vh;
+    width:100% ;
+    background-color: rgb(190, 229, 167);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    .thome-top{
+        h1{
+            font-size: 38px;
+            text-align: center;
+    }
+    }
+    .thome-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        button{
+            padding: 8px 50px;
+            width: 100%;
+            height: 70px;   
+            font-size: 20px;
+            color: white;
+            background-color: rgba(27, 72, 42, 0.997);
+            &:hover{
+                background-color:rgba(44, 121, 61, 0.997) ;
+            }
+            border: none;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+    }
+   
+}

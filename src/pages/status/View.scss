@@ -1,0 +1,52 @@
+.letter-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+
+    p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .s4, .s5 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        button {
+            width: 80%;  // 80% width of the container
+            height: 50px;
+            font-size: 1rem;
+            border-radius: 15px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+
+        img {
+            width: 80%;  
+            height: 120px;
+            object-fit: cover;
+            border-radius: 15px;
+            cursor: pointer;
+
+           
+        }
+    }
+}

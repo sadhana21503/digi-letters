@@ -1,0 +1,42 @@
+.letterTypes-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #daecfe;
+    min-height: 100vh;
+  
+    .types-top {
+      margin-bottom: 2rem;
+  
+      h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        color: #333;
+      }
+    }
+  
+    .types-bottom {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+      gap: 1.5rem;
+  
+      button {
+        padding: 1rem;
+        background-color: #35587f;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #54779d;
+        }
+      }
+    }
+  }
+  

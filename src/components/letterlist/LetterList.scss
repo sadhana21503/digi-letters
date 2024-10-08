@@ -1,0 +1,44 @@
+.formlist-main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(213, 218, 218);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 40px;
+    .formlist-1{
+        h1{
+            font-size: 45px;
+        }
+    }
+    .formlist-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        p{
+            font-size: 20px;
+        }
+        .form-list{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .form-list-item{
+                padding: 8px 30px;
+                border-radius: 30px;
+                background-color: white;
+                display: flex;
+                gap: 50px;
+                cursor: pointer;
+                &:hover{
+                    background-color: rgb(231, 226, 226);
+                }
+                span{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
