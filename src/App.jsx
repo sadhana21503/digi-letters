@@ -10,7 +10,7 @@ import LetterPreview from './pages/view/LetterPreview';
 import Status from './pages/status/Status';
 import View from './pages/status/View';
 import THome from './pages/teacher/thome';
-// import HHome from './pages/hod/HHome';
+import HHome from './pages/hod/HHome';
 import LetterList from './components/letterlist/LetterList';
 import Letter from './components/letter/Letter';
 
@@ -28,7 +28,7 @@ const App = () => {
         <Route path="/status" element={<Status/>}/>
         <Route path="/letter-view" element={<View/>}/>
         <Route path="/teacher" element={<THome/>}/>
-        {/* <Route path="/hod" element={<HHome/>}/> */}
+        <Route path="/hod" element={<HHome/>}/>
         <Route path="/letterlist" element={<LetterList/>}/>
          <Route path="/letter" element={<Letter/>}/>
       </Routes>
